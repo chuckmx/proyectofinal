@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+header{
+    width: 100%;
+    height: 50vh;
+
+}
+.contenedor{
+    display: flex;
+}
+.encabezado{
+    width: 33%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.encabezado input{
+    border-radius: 20px;
+    height: 30px;
+}
+.encabezado h1{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #6a4225;
+}
+
+.encabezado img{
+    padding-right: 15px;
+    margin-left: 20px;
+}
+
+nav{
+    width: 100%;
+    height: 5vh;
+    background-color: #B09581;
+}
+nav ul{
+    display: flex;
+    height: 5vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+    color: #fff;
+}
+
+.imagen{
+    width: 100%;
+    height: 35vh;
+    background: url("../img/portada.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+}
+.imagen span{
+    font-size: 1rem;
+}
+.imagen h1{
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    height: 195vh;
+}
+
+section{
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+}
+
+.recomendations{
+    width: 100%;
+    height: 70vh;
+}
+section h2{
+    color: #7e1811;
+}
+
+.recomendaciones{
+    width: 100%;
+    height: 45vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor_libros{
+    width: 20%;
+    height: 45vh;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.contenedor_libros img{
+    width: 60%;
+    margin-top: 35px;
+}
+.contenedor_libros input{
+    background-color: #7e1811;
+    border: none;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.books{
+    width: 100%;
+    height: 70vh;
+    overflow: auto;
+}
+
+.libros{
+    width: 150%;
+    height: 50vh;
+    display: flex;
+}
+
+.libros img{
+    width: 60%;
+}
+
+.conocenos{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+}
+
+.texto_conocenos{
+    width: 50%;
+    height: 45vh;
+    justify-content: space-around;
+    
+}
+
+.pic_conocenos{
+    width: 50%;
+    height: 45vh;
+    background: url(../img/libreria.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cierre{
+    color: #7e1811;
+    text-align: center;
+    margin-top: 50px;
+    font-size: larger;
+}
+
+footer{
+    width: 100%;
+    height: 55vh;
+    background-color: #B09581;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.eltunel{
+    width: 33%;
+    height: 50vh;
+}
+
+.eltunel img{
+    display: inline-block;
+}
+
+.address{
+    display: inline;
+}
+
+.phone{
+    display: inline-block;
+}
+
+.mail{
+    display: inline-block;
+}
+
+.informacion{
+    width: 33%;
+    height: 50hh;
+    
+}
+
+.suscribete{
+    width: 33%;
+    height: 50vh;
+}
+
+.Derechos{
+    text-align: center;
+    background-color: #B09581;
+    color: #fff;
+}
+
+hr{
+    color: #fff;
+}
+
+.socialmedia img{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.suscribete input[type=button]{
+    background-color: #7e1811;
+    border: none;
+    color: #fff;
+    padding: 0 10px;
+}
